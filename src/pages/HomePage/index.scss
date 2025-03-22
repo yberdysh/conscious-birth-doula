@@ -53,6 +53,7 @@
     }
 
     &__text {
+      @include montserrat();
       font-size: 20px;
       text-align: left;
       max-width: 550px;
