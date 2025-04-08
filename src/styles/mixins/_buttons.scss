@@ -2,6 +2,7 @@
   display: inline-block;
   cursor: pointer;
   border-radius: 20px;
+  border: 1px solid $background-color;
   outline: none;
   text-align: center;
   text-decoration: none;
@@ -12,8 +13,6 @@
   padding: 16px 20px;
   line-height: 20px;
   font-size: 20px;
-  color: $text-color;
-  background-color: $background-color;
   color: $text-color;
   background-color: $background-color;
 
