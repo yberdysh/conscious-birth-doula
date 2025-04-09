@@ -62,6 +62,17 @@
 
     p {
       font-size: 18px;
+
+      @include mq(m) {
+        font-size: 20px;
+      }
+    }
+    ul {
+      font-size: 18px;
+
+      @include mq(m) {
+        font-size: 20px;
+      }
     }
     h1 {
       font-size: 36px;

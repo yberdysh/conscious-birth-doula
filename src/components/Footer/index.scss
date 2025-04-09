@@ -2,7 +2,7 @@
 
 .footer-container {
   width: 100%;
-  background-color: $sky-blue;
+  background-color: $forest-green;
   z-index: 100;
 
   @media (min-width: 1200px) {
@@ -28,6 +28,10 @@
     display: grid;
     grid-template-columns: 1.25fr 3fr;
     gap: 125px;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   &__first-part {
@@ -118,6 +122,11 @@
       font-size: 16px;
       color: $white;
       text-align: left;
+      cursor: pointer;
+
+      &:hover {
+        color: $yellow;
+      }
     }
     p {
       margin: 0;
@@ -157,6 +166,16 @@
       }
       .contact-label {
         font-size: 16px;
+
+        &--link {
+          color: $white;
+          text-decoration: none;
+          cursor: pointer;
+
+          &:hover {
+            color: $yellow;
+          }
+        }
       }
     }
   }
@@ -175,6 +194,12 @@
     &__link {
       font-size: 16px;
       text-align: left;
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        color: $yellow;
+      }
     }
   }
 }

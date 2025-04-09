@@ -17,15 +17,25 @@
     display: grid;
     place-items: center; // Centers both horizontally and vertically
     position: relative;
-    margin-top: -40px;
 
     &__image {
-      max-width: 1200px;
-      width: 100%;
+      max-width: 1440px;
       grid-area: 1 / 1;
-      height: 625px; // Set the desired height
       object-fit: cover; // Ensures the image is cropped to fit the container
       object-position: top;
+      width: 100%;
+
+      @include mq(s) {
+        height: 500px;
+      }
+      @include mq(s) {
+        height: 600px;
+      }
+      @include mq(xl) {
+        width: 1440px;
+        height: 675px;
+        margin-left: -120px;
+      }
     }
     &__text {
       grid-area: 1 / 1; // Ensures the text is in the same grid area as the image
@@ -38,22 +48,24 @@
       margin: 0;
       align-self: center;
       @include copperplate_gothic(700);
+      z-index: 100;
 
       @include mq(s) {
         padding: 0;
-        font-size: 50px;
-        max-width: 590px;
+        font-size: 55px;
+        max-width: 700px;
         align-self: normal;
-        padding-top: 30px;
+        padding-top: 60px;
       }
       @include mq(m) {
         font-size: 65px;
         max-width: 800px;
-        padding-top: 145px;
+        padding-top: 110px;
       }
       @include mq(xl) {
         font-size: 75px;
         max-width: 900px;
+        padding-top: 140px;
       }
     }
   }

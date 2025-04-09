@@ -10,9 +10,9 @@
   z-index: 100;
   transition: top 0.3s;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     display: grid;
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: auto 1440px auto;
   }
 }
 
@@ -27,9 +27,7 @@
 
   @include mq(m) {
     padding: 25px;
-  }
-  @include mq(xl) {
-    padding: 25px 0;
+    height: 100px;
   }
 
   a {
