@@ -57,7 +57,7 @@ function HomePage() {
                   type: "blue",
                 },
                 {
-                  text: "Ready My Story",
+                  text: "Read My Story",
                   link: "/about",
                   type: "blue",
                 },
