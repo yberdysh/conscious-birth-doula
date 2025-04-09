@@ -75,10 +75,4 @@
       color: $dark-teal;
     }
   }
-
-  .section {
-    @include mq(m) {
-      // gap: 0;
-    }
-  }
 }

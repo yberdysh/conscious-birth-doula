@@ -1,0 +1,25 @@
+@import "../../styles/index.scss";
+
+.about {
+  background-color: $dark-teal;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+
+  @include mq(m) {
+    padding: 50px 0;
+  }
+
+  .section {
+    h1 {
+      color: $darkest-teal;
+    }
+  }
+  .section-content__caption-container__caption {
+    border-color: $blue-black;
+    color: $blue-black;
+  }
+}

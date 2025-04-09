@@ -26,7 +26,6 @@ function HomePage() {
             {
               image: hpSecondImage,
               imageAlt: "Lady Fascia and Her Partner",
-              // id: "smaller-width",
             },
             {
               content: (
@@ -57,11 +56,11 @@ function HomePage() {
                   link: "/contact",
                   type: "blue",
                 },
-                // {
-                //   text: "Ready My Story",
-                //   link: "/about",
-                //   type: "blue",
-                // },
+                {
+                  text: "Ready My Story",
+                  link: "/about",
+                  type: "blue",
+                },
               ],
             },
           ]}
@@ -106,17 +105,16 @@ function HomePage() {
             {
               image: hpThirdImage,
               imageAlt: "Pregnant Lady",
-              // id: "smaller-width",
             },
           ]}
         />
 
         <Section
+          mobileReverseOrder
           sections={[
             {
               image: hpFourthImage,
               imageAlt: "Birth Room",
-              // id: "smaller-width",
             },
             {
               content: (
