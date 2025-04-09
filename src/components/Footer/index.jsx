@@ -29,10 +29,10 @@ function Footer() {
             <Link className="footer__navigation__nav" to="/">
               Home
             </Link>
-            {/* <Link className="footer__navigation__nav" to="/about">
+            <Link className="footer__navigation__nav" to="/about">
               About
             </Link>
-            <Link className="footer__navigation__nav" to="/what-is-mfr">
+            {/* <Link className="footer__navigation__nav" to="/what-is-mfr">
               What is MFR
             </Link> */}
             <Link className="footer__navigation__nav" to="/contact">

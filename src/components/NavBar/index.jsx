@@ -80,21 +80,21 @@ function NavBar() {
           >
             Home
           </Link>
+          <Link
+            className="navbar-links__link"
+            onClick={() => setIsMobileNavOpen(false)}
+            to="/about"
+          >
+            About
+          </Link>
           {/* <Link
-              className="navbar-links__link"
-              onClick={() => setIsMobileNavOpen(false)}
-              to="/about"
-            >
-              About
-            </Link>
-            <Link
               className="navbar-links__link"
               onClick={() => setIsMobileNavOpen(false)}
               to="/services"
             >
               Services
-            </Link>
-            <Link
+            </Link> */}
+          {/* <Link
               className="navbar-links__link"
               onClick={() => setIsMobileNavOpen(false)}
               to="/resources"

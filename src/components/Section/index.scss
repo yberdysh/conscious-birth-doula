@@ -9,6 +9,10 @@
   margin: 25px 16px;
   gap: 25px;
 
+  &[data-reverse-mobile="true"] {
+    flex-direction: column-reverse;
+  }
+
   @include mq(s) {
   }
   @include mq(m) {

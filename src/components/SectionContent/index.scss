@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
 
+  &[data-reverse-mobile="true"] {
+    flex-direction: column-reverse;
+  }
+
   &__image-container {
     display: grid;
     justify-items: center;
