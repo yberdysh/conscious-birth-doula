@@ -29,26 +29,24 @@ function Footer() {
             <Link className="footer__navigation__nav" to="/">
               Home
             </Link>
-            <Link className="footer__navigation__nav" to="/about">
+            {/* <Link className="footer__navigation__nav" to="/about">
               About
             </Link>
             <Link className="footer__navigation__nav" to="/what-is-mfr">
               What is MFR
-            </Link>
+            </Link> */}
             <Link className="footer__navigation__nav" to="/contact">
               Contact
             </Link>
-            <Link className="footer__navigation__nav" to="/booking">
+            {/* <Link className="footer__navigation__nav" to="/booking">
               Book Now
-            </Link>
+            </Link> */}
           </div>
           <div className="footer__contact">
             <div className="footer__contact__header">Get in Touch</div>
             <div className="footer__contact__contact-method" data-larger-icon>
               <img className="contact-img" src={mailIcon} alt="Email Icon" />
-              <div className="contact-label">
-                LadyFascia@myofascialawakening.com
-              </div>
+              <div className="contact-label">LadyFascia@gmail.com</div>
             </div>
             <div className="footer__contact__contact-method">
               <img className="contact-img" src={phoneIcon} alt="Phone Icon" />
@@ -65,10 +63,20 @@ function Footer() {
           </div>
           <div className="footer__other">
             <div className="footer__other__header">Something Else?</div>
-            {/* TODO: replace with links */}
-            <div className="footer__other__link">Doula Services</div>
-            {/* <div className="footer__other__link">Enlightenment Blog</div> */}
-            <div className="footer__other__link">Learn about Lady Fascia</div>
+            <a
+              className="footer__other__link"
+              href="https://myofascialawakening.com"
+              target="_blank"
+            >
+              Myofascial Release
+            </a>
+            <a
+              className="footer__other__link"
+              href="https://ladyfascia.com"
+              target="_blank"
+            >
+              Learn about Lady Fascia
+            </a>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ function HomePage() {
             {
               image: hpSecondImage,
               imageAlt: "Lady Fascia and Her Partner",
-              id: "smaller-width",
+              // id: "smaller-width",
             },
             {
               content: (
@@ -57,11 +57,11 @@ function HomePage() {
                   link: "/contact",
                   type: "blue",
                 },
-                {
-                  text: "Ready My Story",
-                  link: "/about",
-                  type: "blue",
-                },
+                // {
+                //   text: "Ready My Story",
+                //   link: "/about",
+                //   type: "blue",
+                // },
               ],
             },
           ]}
@@ -95,18 +95,18 @@ function HomePage() {
                   </p>
                 </div>
               ),
-              buttons: [
-                {
-                  text: "Doula Services",
-                  link: "/services",
-                  type: "blue",
-                },
-              ],
+              // buttons: [
+              //   {
+              //     text: "Doula Services",
+              //     link: "/services",
+              //     type: "blue",
+              //   },
+              // ],
             },
             {
               image: hpThirdImage,
               imageAlt: "Pregnant Lady",
-              id: "smaller-width",
+              // id: "smaller-width",
             },
           ]}
         />
@@ -116,7 +116,7 @@ function HomePage() {
             {
               image: hpFourthImage,
               imageAlt: "Birth Room",
-              id: "smaller-width",
+              // id: "smaller-width",
             },
             {
               content: (
@@ -153,11 +153,11 @@ function HomePage() {
                   link: "/contact",
                   type: "blue",
                 },
-                {
-                  text: "Resources",
-                  link: "/resources",
-                  type: "blue",
-                },
+                // {
+                //   text: "Resources",
+                //   link: "/resources",
+                //   type: "blue",
+                // },
               ],
             },
           ]}

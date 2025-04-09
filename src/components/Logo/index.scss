@@ -10,6 +10,10 @@
   a {
     position: relative;
     color: $white;
+
+    &:hover {
+      color: $yellow;
+    }
   }
 
   @include mq(m) {
@@ -43,6 +47,7 @@
     }
     @include mq(m) {
       line-height: 50px;
+      max-width: 280px;
     }
   }
 }

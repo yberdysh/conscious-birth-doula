@@ -8,8 +8,8 @@ function Logo(clickFunction) {
       <Link to="/" onClick={() => clickFunction()}>
         <img src={logo} className="logo__image" alt="Lady Fascia Logo" />
         <div className="logo__text">
-          <span>Myofascial </span>
-          <span>Awakening</span>
+          <span>Conscious </span>
+          <span>Birth Doula</span>
         </div>
       </Link>
     </div>
