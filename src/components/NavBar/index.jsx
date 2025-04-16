@@ -87,13 +87,13 @@ function NavBar() {
           >
             About
           </Link>
-          {/* <Link
-              className="navbar-links__link"
-              onClick={() => setIsMobileNavOpen(false)}
-              to="/services"
-            >
-              Services
-            </Link> */}
+          <Link
+            className="navbar-links__link"
+            onClick={() => setIsMobileNavOpen(false)}
+            to="/services"
+          >
+            Services
+          </Link>
           {/* <Link
               className="navbar-links__link"
               onClick={() => setIsMobileNavOpen(false)}
