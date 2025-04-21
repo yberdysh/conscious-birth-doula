@@ -9,7 +9,7 @@ import Section from "../../components/Section";
 function ServicesPage2() {
   return (
     <div className="services">
-      <div className="services-content">
+      <div className="services-content2">
         <Section
           sections={[
             {
