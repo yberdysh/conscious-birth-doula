@@ -99,6 +99,7 @@ function ServicesPage() {
         />
 
         <Section
+          mobileReverseOrder
           sections={[
             {
               image: aboutThirdImage,
