@@ -6,7 +6,7 @@ import aboutFourthImage from "../../assets/services-fourth-img.jpeg";
 import aboutFifthImage from "../../assets/services-fifth-img.jpeg";
 import Section from "../../components/Section";
 
-function ServicesPage() {
+function ServicesPage2() {
   return (
     <div className="services">
       <div className="services-content">
@@ -134,7 +134,7 @@ function ServicesPage() {
             },
           ]}
         />
-
+        {/* 
         <Section
           sections={[
             {
@@ -225,7 +225,7 @@ function ServicesPage() {
               ),
             },
           ]}
-        />
+        /> */}
 
         <h1>Packages and Pricing</h1>
 
@@ -307,10 +307,104 @@ function ServicesPage() {
                 </div>
               ),
             },
+          ]}
+        />
+
+        <Section
+          sections={[
             {
-              image: aboutFourthImage,
-              imageAlt: "Baby",
-              // id: "smaller-width",
+              content: (
+                <div>
+                  <div className="pink-container">
+                    <h2>Bodywork (MFR) add on - $600</h2>
+                    <p style={{ margin: "0" }}>
+                      Package of 5 myofascial release sessions with outcomes
+                      such as...
+                    </p>
+                    <div className="two-columns">
+                      <ul>
+                        <li>
+                          <span>
+                            Eases stiffness, pain, and postural issues during
+                            pregnancy
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Relieves heartburn, nausea, and shortness of breath
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Aligns the pelvis and removes restrictions to
+                            support a smoother birth
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Creates more space for baby to find an optimal
+                            position—including helping breech babies to turn
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Helps initiate labor when you're full term or when
+                            labor has stalled
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Deeply relaxes your body in preparation for birth
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Builds self-awareness and strengthens your
+                            connection to your body
+                          </span>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <span>
+                            Releases trapped emotions and past trauma (including
+                            birth trauma) that may interfere with a smooth birth
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Supports labor progression and can ease certain
+                            complications during birth
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Encourages faster postpartum healing and recovery
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Softens and releases scar tissue from cesarean
+                            births
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Helps relieve mastitis and supports more comfortable
+                            breastfeeding
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            Builds a closer relationship with your doula where
+                            my touch becomes a cue for comfort and safety
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              ),
             },
           ]}
         />
@@ -318,46 +412,35 @@ function ServicesPage() {
         <Section
           sections={[
             {
-              image: aboutFifthImage,
+              image: aboutFourthImage,
               imageAlt: "Baby",
               // id: "smaller-width",
             },
             {
               content: (
-                <div className="two-content">
-                  <div>
-                    <div className="pink-container">
-                      <h2>BODYWORK (MFR) ADD ON - $600</h2>
-                      <p>
-                        5 additional sessions of myofascial release therapy to
-                        be used prenatally to prepare for your birth.
-                      </p>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="pink-container">
-                      <h2>HOLISTIC PARENTING ADD ON - $150</h2>
-                      <p>
-                        Additional post-partum visit a few weeks after the birth
-                        to share knowledge in a variety of holistic topics:
-                      </p>
-                      <ul>
-                        <li>
-                          Baby-wearing: includes trying out some wraps and
-                          carriers that I own
-                        </li>
-                        <li>
-                          Cloth diapering: includes a show and tell of cloth
-                          diapers
-                        </li>
-                        <li>Elimination Communication</li>
-                        <li>Bed Sharing</li>
-                        <li>
-                          Fertility/Cycle Knowledge: learning how to track the
-                          return of your fertility naturally
-                        </li>
-                      </ul>
-                    </div>
+                <div>
+                  <div className="pink-container">
+                    <h2>HOLISTIC PARENTING ADD ON - $150</h2>
+                    <p style={{ margin: "0" }}>
+                      Additional post-partum visit a few weeks after the birth
+                      to share knowledge in a variety of holistic topics:
+                    </p>
+                    <ul>
+                      <li>
+                        Baby-wearing: includes trying out some wraps and
+                        carriers that I own
+                      </li>
+                      <li>
+                        Cloth diapering: includes a show and tell of cloth
+                        diapers
+                      </li>
+                      <li>Elimination Communication</li>
+                      <li>Bed Sharing</li>
+                      <li>
+                        Fertility/Cycle Knowledge: learning how to track the
+                        return of your fertility naturally
+                      </li>
+                    </ul>
                   </div>
                 </div>
               ),
@@ -369,4 +452,4 @@ function ServicesPage() {
   );
 }
 
-export default ServicesPage;
+export default ServicesPage2;

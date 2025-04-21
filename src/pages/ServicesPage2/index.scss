@@ -26,7 +26,6 @@
     }
     h2 {
       font-size: 28px;
-      margin-bottom: 5px;
     }
   }
   .section-content__caption-container__caption {
@@ -52,7 +51,7 @@
       padding: 10px 10px;
     }
 
-    .two-columns {
+    &.two-columns {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
