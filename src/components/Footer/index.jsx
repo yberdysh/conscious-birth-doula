@@ -32,6 +32,9 @@ function Footer() {
             <Link className="footer__navigation__nav" to="/about">
               About
             </Link>
+            <Link className="footer__navigation__nav" to="/services">
+              Services
+            </Link>
             {/* <Link className="footer__navigation__nav" to="/what-is-mfr">
               What is MFR
             </Link> */}

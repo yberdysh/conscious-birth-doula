@@ -1,0 +1,70 @@
+@import "../../styles/index.scss";
+
+.services {
+  background-color: $santas-gray;
+}
+
+.services-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+
+  @include mq(m) {
+    padding: 50px 0;
+  }
+
+  .outside-title {
+    color: $livid-brown;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: -25px;
+  }
+
+  .section {
+    h1 {
+      color: $livid-brown;
+    }
+    h2 {
+      font-size: 28px;
+    }
+  }
+  .section-content__caption-container__caption {
+    border-color: $blue-black;
+    color: $blue-black;
+  }
+
+  .two-content {
+    // display: grid;
+    display: flex;
+    flex-direction: column;
+    // grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  .pink-container {
+    background-color: $lily;
+    border-radius: 20px;
+    padding: 10px 0;
+    margin-left: -30px;
+
+    @include mq(m) {
+      padding: 10px 10px;
+    }
+
+    &.two-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    &__text {
+      color: $white;
+      font-size: 20px;
+      text-align: center;
+
+      @include mq(s) {
+        font-size: 30px;
+      }
+    }
+  }
+}

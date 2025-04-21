@@ -32,6 +32,28 @@
     margin: 50px 0;
   }
 
+  ul {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+
+    li {
+      ul {
+        padding-left: 20px;
+      }
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 16px; /* Set the width of the image */
+        height: 16px; /* Set the height of the image */
+        margin-right: 8px; /* Add space between the image and text */
+        background-image: url('../../assets/arrow-icon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
   &.visible {
     opacity: 1;
     transform: translateY(0);

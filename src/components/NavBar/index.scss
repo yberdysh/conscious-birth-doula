@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: $forest-green;
+  background-color: $darkest-teal;
   z-index: 100;
   transition: top 0.3s;
 
@@ -69,7 +69,7 @@
       width: 100%;
       box-shadow: 0 6px 18px #0003;
       display: grid;
-      background-color: $forest-green;
+      background-color: $darkest-teal;
       text-align: left;
 
       @include mq(s) {
