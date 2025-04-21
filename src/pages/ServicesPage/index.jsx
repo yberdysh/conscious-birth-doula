@@ -316,6 +316,7 @@ function ServicesPage() {
         />
 
         <Section
+          mobileReverseOrder
           sections={[
             {
               image: aboutFifthImage,
