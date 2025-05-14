@@ -20,17 +20,6 @@ function HomePage() {
       </div>
 
       <div className="home-content">
-        {/* <div className="home-content__banner">
-          <img
-            className="home-content__banner__image"
-            src={hpFirstImage}
-            alt="treatment room"
-          />
-          <h1 className="home-content__banner__text">
-            Your birth is a <br /> radiant and conscious transformation
-          </h1>
-        </div> */}
-
         <Section
           mobileReverseOrder
           sections={[
