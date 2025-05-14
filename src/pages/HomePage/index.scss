@@ -19,7 +19,7 @@
     position: relative;
 
     &__image {
-      max-width: 1440px;
+      max-width: 1800px;
       grid-area: 1 / 1;
       object-fit: cover; // Ensures the image is cropped to fit the container
       object-position: top;
@@ -32,9 +32,7 @@
         height: 600px;
       }
       @include mq(xl) {
-        width: 1440px;
         height: 675px;
-        margin-left: -120px;
       }
     }
     &__text {
