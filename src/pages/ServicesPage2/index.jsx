@@ -236,8 +236,50 @@ function ServicesPage2() {
               content: (
                 <div>
                   <div className="pink-container">
-                    <h2>BIRTH PACKAGE - $1500</h2>
+                    <h2>BIRTH PACKAGE - $1200</h2>
                     <ul>
+                      <li>
+                        1 complimentary prenatal visit before you sign on where
+                        we get to know each other face to face and evaluate fit
+                      </li>
+                      <li>
+                        1 structured prenatal visit in your home to plan for the
+                        birth, review comfort measures, and unblock any fears or
+                        emotions weighing on you
+                      </li>
+                      <li>
+                        Choice of:
+                        <ul>
+                          <li>
+                            1 additional unstructured prenatal visit to discuss
+                            your birth or any concerns
+                          </li>
+                          <li>
+                            1 complimentary myofascial release session to
+                            release restrictions weighing on your body or heart
+                            going into the birth
+                          </li>
+                        </ul>
+                      </li>
+                      <li>Unlimited phone, text, and email support</li>
+                      <li>Access to my lending library</li>
+                      <li>On call 24/7 for your birth from 38-42 weeks</li>
+                      <li>
+                        Continuous support from the moment you are in active
+                        labor until after the baby is born and everyone is
+                        settled
+                      </li>
+                      <li>Photos taken of your birth, if desired</li>
+                      <li>
+                        1 post-partum visit to provide emotional support,
+                        lactation support, and debrief the birth
+                      </li>
+                      <li>
+                        All individual myofascial release sessions at 10%
+                        discount until 6 months postpartum
+                      </li>
+                    </ul>
+                    {/* <ul>
                       <li>
                         <span>
                           1 complimentary prenatal visit before you sign on
@@ -303,7 +345,7 @@ function ServicesPage2() {
                           discount until 6 months postpartum
                         </span>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               ),
