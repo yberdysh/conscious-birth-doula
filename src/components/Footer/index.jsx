@@ -64,7 +64,7 @@ function Footer() {
                   src={locationIcon}
                   alt="Location Icon"
                 />
-                <div className="contact-label">Bethlehem, PA</div>
+                <div className="contact-label">Fountain Hill, PA</div>
               </div>
             </div>
             {/* <div className="footer__social">
