@@ -243,7 +243,7 @@ function ServicesPage2() {
               content: (
                 <div>
                   <div className="pink-container">
-                    <h2>Benefits of MFR</h2>
+                    <h2>MFR Benefits for Pregnancy, Birth, and Postpartum</h2>
                     {/* <p style={{ margin: '0' }}>
                       Package of 5 myofascial release sessions with outcomes
                       such as...
