@@ -1,10 +1,10 @@
-import "./index.scss";
-import aboutFirstImage from "../../assets/services-first-img.jpg";
-import aboutSecondImage from "../../assets/services-second-img.jpg";
-import aboutThirdImage from "../../assets/services-third-img.jpg";
-import aboutFourthImage from "../../assets/services-fourth-img.jpeg";
-import aboutFifthImage from "../../assets/services-fifth-img.jpeg";
-import Section from "../../components/Section";
+import './index.scss';
+import aboutFirstImage from '../../assets/services-first-img.jpg';
+import aboutSecondImage from '../../assets/services-second-img.jpg';
+import aboutThirdImage from '../../assets/services-third-img.jpg';
+import aboutFourthImage from '../../assets/services-fourth-img.jpeg';
+import aboutFifthImage from '../../assets/services-fifth-img.jpeg';
+import Section from '../../components/Section';
 
 function ServicesPage2() {
   return (
@@ -14,7 +14,7 @@ function ServicesPage2() {
           sections={[
             {
               image: aboutFirstImage,
-              imageAlt: "Pregnant Belly",
+              imageAlt: 'Pregnant Belly',
             },
             {
               content: (
@@ -92,8 +92,8 @@ function ServicesPage2() {
             },
             {
               image: aboutSecondImage,
-              imageAlt: "Couple",
-              id: "smaller-width",
+              imageAlt: 'Couple',
+              id: 'smaller-width',
             },
           ]}
         />
@@ -103,7 +103,7 @@ function ServicesPage2() {
           sections={[
             {
               image: aboutThirdImage,
-              imageAlt: "Forehead Release",
+              imageAlt: 'Forehead Release',
             },
             {
               content: (
@@ -128,7 +128,16 @@ function ServicesPage2() {
                     Receiving bodywork during your journey is also a beautiful
                     way to deepen our connection. My hands become familiar and
                     grounding, so that during labor, my touch is already a cue
-                    for calm, safety, and support.
+                    for calm, safety, and support. You can read more on my{' '}
+                    <a
+                      href="https://www.myofascialawakening.com"
+                      target="_blank"
+                      className="link"
+                      rel="noopener noreferrer"
+                    >
+                      MFR website
+                    </a>
+                    .
                   </p>
                 </div>
               ),
@@ -228,142 +237,17 @@ function ServicesPage2() {
           ]}
         /> */}
 
-        <h1>Packages and Pricing</h1>
-
         <Section
           sections={[
             {
               content: (
                 <div>
                   <div className="pink-container">
-                    <h2>BIRTH PACKAGE - $1200</h2>
-                    <ul>
-                      <li>
-                        1 complimentary prenatal visit before you sign on where
-                        we get to know each other face to face and evaluate fit
-                      </li>
-                      <li>
-                        1 structured prenatal visit in your home to plan for the
-                        birth, review comfort measures, and unblock any fears or
-                        emotions weighing on you
-                      </li>
-                      <li>
-                        Choice of:
-                        <ul>
-                          <li>
-                            1 additional unstructured prenatal visit to discuss
-                            your birth or any concerns
-                          </li>
-                          <li>
-                            1 complimentary myofascial release session to
-                            release restrictions weighing on your body or heart
-                            going into the birth
-                          </li>
-                        </ul>
-                      </li>
-                      <li>Unlimited phone, text, and email support</li>
-                      <li>Access to my lending library</li>
-                      <li>On call 24/7 for your birth from 38-42 weeks</li>
-                      <li>
-                        Continuous support from the moment you are in active
-                        labor until after the baby is born and everyone is
-                        settled
-                      </li>
-                      <li>Photos taken of your birth, if desired</li>
-                      <li>
-                        1 post-partum visit to provide emotional support,
-                        lactation support, and debrief the birth
-                      </li>
-                      <li>
-                        All individual myofascial release sessions at 10%
-                        discount until 6 months postpartum
-                      </li>
-                    </ul>
-                    {/* <ul>
-                      <li>
-                        <span>
-                          1 complimentary prenatal visit before you sign on
-                          where we get to know each other face to face and
-                          evaluate fit
-                        </span>
-                      </li>
-                      <li>
-                        <span>2 prenatal meetings:</span>
-                        <ul>
-                          <li>
-                            <span>
-                              1 structured prenatal visit in your home to plan
-                              for the birth, review comfort measures, and
-                              unblock any fears or emotions weighing on you
-                            </span>
-                          </li>
-                          <li>
-                            <span>
-                              1 additional unstructured prenatal visit to
-                              discuss your birth or any concerns
-                            </span>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <span>
-                          1 complimentary myofascial release session to release
-                          restrictions weighing on your body or heart going into
-                          the birth
-                        </span>
-                      </li>
-                      <li>
-                        <span>Unlimited phone, text, and email support</span>
-                      </li>
-                      <li>
-                        <span>Access to my lending library</span>
-                      </li>
-                      <li>
-                        <span>
-                          On call 24/7 for your birth from 38-42 weeks
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          Continuous support from the moment you are in active
-                          labor until after the baby is born and everyone is
-                          settled
-                        </span>
-                      </li>
-                      <li>
-                        <span>Photos taken of your birth, if desired</span>
-                      </li>
-                      <li>
-                        <span>
-                          1 post-partum visit to provide emotional support,
-                          lactation support, and debrief the birth
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          All individual myofascial release sessions at 10%
-                          discount until 6 months postpartum
-                        </span>
-                      </li>
-                    </ul> */}
-                  </div>
-                </div>
-              ),
-            },
-          ]}
-        />
-
-        <Section
-          sections={[
-            {
-              content: (
-                <div>
-                  <div className="pink-container">
-                    <h2>Bodywork (MFR) add on - $600</h2>
-                    <p style={{ margin: "0" }}>
+                    <h2>Benefits of MFR</h2>
+                    {/* <p style={{ margin: '0' }}>
                       Package of 5 myofascial release sessions with outcomes
                       such as...
-                    </p>
+                    </p> */}
                     <div className="two-columns">
                       <ul>
                         <li>
@@ -452,7 +336,169 @@ function ServicesPage2() {
           ]}
         />
 
+        <h1>Packages and Pricing</h1>
+        <p>
+          I offer two ways to work together, depending on how deeply you want to
+          prepare — physically, emotionally, and relationally — for your birth.
+          Both options include continuous birth support and access to me
+          throughout your pregnancy. The difference lies in how much time we
+          spend preparing your body, nervous system, and inner landscape for
+          birth.
+        </p>
+
         <Section
+          sections={[
+            {
+              content: (
+                <div>
+                  <div className="pink-container">
+                    <h2>ALIGNED BIRTH EXPERIENCE - $2500</h2>
+                    <i>A deeply embodied preparation for birth</i>
+                    {/* <h2>$2500</h2> */}
+                    <p>
+                      This is for those who want to enter birth with as little
+                      resistance as possible — in the body, the tissues, and the
+                      nervous system. Through ongoing myofascial release and
+                      conscious birth preparation, we build trust, attunement,
+                      and safety long before labor begins.
+                    </p>
+                    <ul>
+                      <li>
+                        Complimentary prenatal consultation to meet, connect,
+                        and assess fit
+                      </li>
+                      <li>
+                        12 prenatal meetings, including:
+                        <ul>
+                          <li>
+                            10 hours of Myofascial Release therapy, supporting:
+                            <ul>
+                              <li>pelvic and spinal balance</li>
+                              <li>nervous system regulation</li>
+                              <li>emotional and trauma release</li>
+                              <li>
+                                optimal conditions for physiological birth
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            2 conscious birth preparation sessions, tailored to
+                            your needs (education, mindset, surrender,
+                            fear-clearing, partner integration)
+                          </li>
+                        </ul>
+                      </li>
+                      <li>Unlimited phone, text, and email support</li>
+                      <li>Access to my lending library</li>
+                      <li>On-call support for your birth from 37–42 weeks</li>
+                      <li>
+                        Continuous in-person support throughout labor and birth,
+                        from active labor until baby is born and everyone is
+                        settled
+                      </li>
+                      <li>Photos taken of your birth, if desired</li>
+                      <li>
+                        1 postpartum integration visit for emotional support,
+                        debriefing, and early postpartum care
+                      </li>
+                    </ul>
+                    <i>
+                      This work is an invitation to prepare on all levels —
+                      physical, emotional, and energetic — in service of a
+                      smoother unfolding of birth.
+                    </i>
+                  </div>
+                </div>
+              ),
+            },
+          ]}
+        />
+
+        <Section
+          sections={[
+            {
+              content: (
+                <div>
+                  <div className="pink-container">
+                    <h2>CORE BIRTH SUPPORT - $1450</h2>
+                    <i>Continuous doula care with focused preparation</i>
+                    <p>
+                      This option provides steady, grounded support throughout
+                      pregnancy and birth, with space to address both practical
+                      preparation and the body’s needs.
+                    </p>
+                    <ul>
+                      <li>
+                        <span>
+                          Complimentary prenatal consultation to meet and assess
+                          fit
+                        </span>
+                      </li>
+                      <li>
+                        <span>3 prenatal meetings, including:</span>
+                        <ul>
+                          <li>
+                            <span>
+                              1 Myofascial Release session to support physical
+                              and emotional readiness
+                            </span>
+                          </li>
+                          <li>
+                            <span>
+                              1 conscious birth preparation session, focused on
+                              education, comfort measures, and clearing fear
+                            </span>
+                          </li>
+                          <li>
+                            <span>
+                              1 additional prenatal session, tailored to your
+                              needs (either bodywork or preparation)
+                            </span>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <span>Unlimited phone, text, and email support</span>
+                      </li>
+                      <li>
+                        <span>Access to my lending library</span>
+                      </li>
+                      <li>
+                        <span>On-call support from 37–42 weeks</span>
+                      </li>
+                      <li>
+                        <span>
+                          Continuous in-person labor and birth support
+                        </span>
+                      </li>
+                      <li>
+                        <span>Photos taken of your birth, if desired</span>
+                      </li>
+                      <li>
+                        <span>
+                          1 postpartum visit for emotional support and birth
+                          integration
+                        </span>
+                      </li>
+                    </ul>
+                    <i>
+                      This offering is well-suited for those seeking dedicated
+                      doula support, with an introduction to myofascial release
+                      as a way of meeting and listening to the body.
+                    </i>
+                  </div>
+                </div>
+              ),
+            },
+            {
+              image: aboutFourthImage,
+              imageAlt: 'Baby',
+              // id: "smaller-width",
+            },
+          ]}
+        />
+
+        {/* <Section
           sections={[
             {
               image: aboutFourthImage,
@@ -489,7 +535,7 @@ function ServicesPage2() {
               ),
             },
           ]}
-        />
+        /> */}
       </div>
     </div>
   );
