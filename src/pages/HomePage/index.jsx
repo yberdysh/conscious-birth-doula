@@ -1,9 +1,9 @@
-import "./index.scss";
-import hpFirstImage from "../../assets/hp-1st-image.jpg";
-import hpSecondImage from "../../assets/us-image.jpeg";
-import hpThirdImage from "../../assets/hp-3rd-image.jpg";
-import hpFourthImage from "../../assets/hp-4th-image.jpg";
-import Section from "../../components/Section";
+import './index.scss';
+import hpFirstImage from '../../assets/hp-1st-image.jpg';
+import hpSecondImage from '../../assets/us-image.jpeg';
+import hpThirdImage from '../../assets/hp-3rd-image.jpg';
+import hpFourthImage from '../../assets/hp-4th-image.jpg';
+import Section from '../../components/Section';
 
 function HomePage() {
   return (
@@ -25,7 +25,7 @@ function HomePage() {
           sections={[
             {
               image: hpSecondImage,
-              imageAlt: "Lady Fascia and Her Partner",
+              imageAlt: 'Lady Fascia and Her Partner',
             },
             {
               content: (
@@ -52,14 +52,14 @@ function HomePage() {
               ),
               buttons: [
                 {
-                  text: "Contact Me",
-                  link: "/contact",
-                  type: "blue",
+                  text: 'Contact Me',
+                  link: '/contact',
+                  type: 'blue',
                 },
                 {
-                  text: "Read My Story",
-                  link: "/about",
-                  type: "blue",
+                  text: 'Read My Story',
+                  link: '/about',
+                  type: 'blue',
                 },
               ],
             },
@@ -104,7 +104,7 @@ function HomePage() {
             },
             {
               image: hpThirdImage,
-              imageAlt: "Pregnant Lady",
+              imageAlt: 'Pregnant Lady',
             },
           ]}
         />
@@ -114,7 +114,7 @@ function HomePage() {
           sections={[
             {
               image: hpFourthImage,
-              imageAlt: "Birth Room",
+              imageAlt: 'Birth Room',
             },
             {
               content: (
@@ -135,21 +135,21 @@ function HomePage() {
                     </li>
                     <li>
                       You‘re at the start of your pregnancy and unsure where you
-                      start.{" "}
+                      start.{' '}
                     </li>
                     <li>
                       You’re trying to conceive and would like to learn more
-                      about fertility and what to do next.{" "}
+                      about fertility and what to do next.{' '}
                     </li>
                   </ul>
-                  <p>Or check out my resources page!</p>
+                  {/* <p>Or check out my resources page!</p> */}
                 </div>
               ),
               buttons: [
                 {
-                  text: "Contact Me",
-                  link: "/contact",
-                  type: "blue",
+                  text: 'Contact Me',
+                  link: '/contact',
+                  type: 'blue',
                 },
                 // {
                 //   text: "Resources",
